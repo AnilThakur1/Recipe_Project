@@ -1,0 +1,52 @@
+.reu_card_all{ 
+/* margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));
+gap: 30px;
+margin-top: 50px;
+ row-gap: 80px; */
+
+    display: grid;  
+    /* grid-template-columns: repeat(auto-fit, minmax(23%, 1fr)); */
+    grid-template-columns: repeat(auto-fill, minmax(0, 23%));
+    justify-content: space-between;
+    gap: 30px;
+    row-gap: 60px;  
+}
+
+
+.reu_card1{
+ transition: transform .6s cubic-bezier(.34,1.56,.64,1);
+ 
+}
+
+
+.reu_card1:hover{
+ transform: translateY(-8px);
+cursor: pointer;
+    
+}
+
+
+
+.reu_image{
+    width: 100%;
+    border-radius: 12px;
+    height: 550px;
+    object-fit: cover;
+}
+
+
+.reu_card1 h2{
+    font-size: 1.5rem;
+    color: var(--text-green);
+    font-weight: 500;
+}
+
+.reu_card1 p{
+     color: var(--text-para);
+    font-size: 15px;
+
+}
+
+    

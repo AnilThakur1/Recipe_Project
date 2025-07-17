@@ -1,0 +1,44 @@
+.updated_new_blog{
+ width: 50%;
+      box-shadow: 0 0 10px 3px rgba(0,0,0,0.2);
+      padding: 20px;
+      border-radius: 16px;
+      margin: 0 auto;
+}
+
+
+@media (max-width:1200px){
+  .updated_new_blog{
+    width: 60%;
+  }
+   
+
+  
+}
+
+ 
+@media (min-width:500px) and (max-width:700px){
+    .updated_new_blog{
+    width: 80%;
+  }
+   
+
+} 
+
+
+@media (max-width:500px){
+     .updated_new_blog{
+    width: 90%;
+  }
+   
+  
+ 
+ 
+
+} 
+
+
+
+ 
+
+ 

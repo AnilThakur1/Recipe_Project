@@ -1,0 +1,60 @@
+@media (max-width:1200px){
+  .reu_card_all{
+        grid-template-columns: repeat(auto-fill, minmax(0, 30%));
+  }
+  .reu_image{
+    height: 450px;
+  }
+  
+}
+
+
+@media (max-width:800px){
+.mobile-tending{
+  padding-top:180px;
+
+}
+
+}
+
+ 
+@media (min-width:500px) and (max-width:700px){
+    .reu_card_all{
+        grid-template-columns: repeat(auto-fill, minmax(0, 47%));
+        gap: 20px;
+  }
+  .reu_image{
+    height: 350px;
+  }
+
+  .trend_recipe{
+    font-size: 3rem;
+  }
+
+} 
+
+
+@media (max-width:500px){
+
+  .reu_card_all{
+        grid-template-columns: repeat(auto-fill, minmax(0, 97%));
+        gap: 30px;
+        justify-content: center;
+  }
+  .reu_image{
+    height: 300px;
+  }
+
+  .trend_recipe{
+    font-size: 2rem;
+  }
+
+
+  /* this is for search button in MealSearch.jsx********************** */
+
+  /* body .btn_main{
+  padding: 10px;
+  } */
+
+} 
+

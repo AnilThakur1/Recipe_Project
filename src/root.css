@@ -1,0 +1,261 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* this above is font family link import here this is inter font */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, 
+blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* em {
+  font-weight: 500;
+  color: var(--color-primary);
+} */
+
+
+
+
+/*=====================================
+    BODY HTML CSS DECALARATIONS
+=====================================*/
+/****************GOOD TO HAVES*****************/
+
+:ROOT {
+    --color-primary: rgb(64,137,101);
+ 
+
+    --bg-primary: rgb(229,235,224);
+
+
+    --text-primary:rgb(12,17,15);
+    --text-secondary: rgb(98,98,98);
+    --text-black:rgb(13,12,34);
+    --text-white:#ffffff;
+    --text-green:#337179;
+    --text-para:#254a5d;
+
+
+
+    
+    --font-primary: 'Inter';
+    --font-secondary: "Saira", sans-serif;
+                                                     
+ 
+  }
+
+
+
+ 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family:var(--font-primary);
+  }
+  
+  body {
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: var(--bg-grey);
+    color: var(--text-primary);
+    letter-spacing: 0.02rem;
+    line-height: 1.4;
+  }
+  
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: var(--font-primary);
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 0.5em;
+  }
+   
+  body h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+  /* //intended for sub headers */
+  body h2 { 
+    font-size: 3rem;
+  }
+
+  body h3 {
+    font-size: 2.5rem;
+  }
+  body h4 {
+    font-size: 2rem;
+  }
+  body h5 {
+    font-size: 1.5rem;
+  }
+  body h6 {
+    font-size: 1rem;
+  }
+
+
+
+  body p, body li, body button, body div {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  /* body em {
+    font-weight: 700;
+  } */
+/* 
+  body small {
+    font-size: 0.8rem;
+  } */
+  
+
+  button {
+    font-family: var(--font-secondary);
+    cursor: pointer;
+  }
+
+   a{
+    text-decoration: none;
+   }
+  
+  .btn_main {
+    padding: 15px 30px;
+    color: var(--text-white);
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+    background: var(--color-primary);
+    border: none;
+    letter-spacing: 0.125rem;;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    line-height: 1;
+    border-radius: 20px;
+  }
+
+
+ /* .btn_main:hover{
+  transform: scale(1.1); 
+    color: blue;
+    background: red;
+    font-size: 2.5rem;
+
+ }   */
+
+
+
+
+   img {
+      vertical-align: top;
+    }
+   
+  
+  .btn_main:hover {
+    opacity: 0.8;
+    /* background:  #6c2224; */
+    transition: all 0.2s ease-in-out;
+    /* color: var(--text-white); */
+  }
+  
+  .btn_secondary {
+    /* padding: 20px 30px; */
+    color: var(--color-primary);
+    text-transform: uppercase;
+    /* background: var(--bg-grey); */
+    font-family: var(--font-secondary);
+    background: none;
+    border: none;
+    border-radius: none;
+    font-weight: 600;
+    font-size: 1.375rem;
+    /* letter-spacing: 0.1rem;; */
+    cursor: pointer;
+
+  }
+  .btn_links:hover {
+    opacity: 0.8;
+  }
+
+  .btn_light {
+    padding: 20px 30px;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    background: var(--bg-white);
+    border: 1px solid var(--color-primary);
+    border-radius: none;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;;
+    cursor: pointer;
+
+
+  }
+
+  .btn_light:hover {
+    background: var(--bg-grey);
+  }
+
+
+  .width_95{
+    width: 95%;
+    margin: 0 auto;
+
+  }
+
+  ul li a:hover{
+    color: var(--text-secondary);
+    text-decoration: underline;
+
+  }
+
+    ul li a{
+    color: var( --text-primary);
+    font-weight: 400;
+    }
+   
+
+ 
+

@@ -1,0 +1,114 @@
+/* Blog.css */
+
+.adding_new_blog{
+    width: 50%;
+      box-shadow: 0 0 10px 3px rgba(0,0,0,0.2);
+      padding: 20px;
+      border-radius: 16px;
+      margin: 0 auto;
+}
+ 
+.adding_blog h3{ 
+margin: 30px  0;
+color: #337179;
+}
+
+/* Form layout */
+form label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-green);
+ padding-bottom: 30px;
+   
+}
+
+
+form input[type="text"],
+form input[type="file"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  /* margin-bottom: 1rem; */
+  transition: border 0.2s ease;
+  margin-top: 0.3rem;
+}
+
+form input[type="text"]:focus {
+  border: 1.5px solid var(--color-primary);
+  outline: none;
+}
+
+ 
+
+.ql-clipboard {
+  position: fixed;
+}
+
+
+/* this is for responsive ******************* */
+
+@media (max-width:1200px){
+  .blog_cards{
+        grid-template-columns: repeat(auto-fill, minmax(0, 30%));
+  }
+
+  .adding_new_blog{
+    width: 60%;
+  }
+   
+  
+ 
+  
+}
+
+@media (max-width: 800px) {
+  .m_padding{
+    padding-top: 200px;
+  }
+  }
+
+ 
+@media (min-width:500px) and (max-width:700px){
+    .blog_cards{
+        grid-template-columns: repeat(auto-fill, minmax(0, 46%));
+        /* gap: 50px; */
+  }
+
+    .adding_new_blog{
+    width: 80%;
+  }
+   
+
+} 
+
+
+@media (max-width:500px){
+
+  .blog_cards{
+        grid-template-columns: repeat(auto-fill, minmax(0, 97%));
+        /* gap: 50px; */
+        justify-content: center;
+  }
+  
+  .blog_h3{
+    font-size: 2rem;
+  }
+
+
+     .adding_new_blog{
+    width: 90%;
+  }
+   
+  
+ 
+ 
+
+} 
+
+
+
+ 
+
+ 

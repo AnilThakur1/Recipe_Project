@@ -1,0 +1,220 @@
+.card_detail{
+ width: 42%;
+ margin: 0 auto;   
+}
+.card_detail img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.card_detail h2{
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    color:#337179;
+}
+
+.card_profile{
+display: flex;
+gap: 30px;
+align-items: center;
+}
+.card_profile img{
+    width: 10%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.card_profile h4{
+    font-size: 1rem;
+    margin-bottom: 0;
+
+}
+ 
+ 
+/* Quill-rendered content wrapper */
+.blog-content {
+margin-bottom: 3rem;
+}
+
+
+
+/* Headings */
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4,
+.blog-content h5,
+.blog-content h6 {
+  margin: 1.2rem 0 1rem;
+  font-weight: bold;
+  color: var(--text-green);
+}
+
+
+
+/* Paragraphs */
+.blog-content p {
+  margin: 1rem 0;
+  color: var(--text-para);
+}
+
+/* Bold, Italic, Underline */
+/* .blog-content strong {
+  font-weight: bold;
+} */
+
+.blog-content em {
+  font-style: italic;
+}
+
+ 
+
+/* Blockquote */
+.blog-content blockquote {
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.5rem;
+  background: #eef5f9;
+  border-left: 5px solid #337179;
+  font-style: italic;
+  color: #333;
+}
+
+
+
+/* Ordered and Unordered Lists */
+.blog-content ul{
+  padding-left: 2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  list-style: circle;
+   
+    
+}
+
+.blog-content ol{
+  padding-left: 2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  list-style: decimal;
+   
+    
+}
+
+
+.blog-content p strong{
+  font-weight: bold;
+}
+
+.blog-content ul li{
+  margin-bottom: 0.5rem;
+  color: var(--text-para);
+  
+}
+
+/* .blog-content ul li:hover{
+  text-decoration: underline; 
+} */
+ 
+
+.blog-content ol li{
+  margin-bottom: 0.5rem;
+  color: var(--text-para);
+  
+}
+
+/* .blog-content ol li:hover{
+  text-decoration: underline; 
+}
+  */
+
+
+ 
+
+
+
+/* Links */
+.blog-content a {
+  color: blue;
+  text-decoration: underline;
+  /* word-break: break-word; */
+
+}
+
+.blog-content a:hover {
+  color: rgb(114, 114, 248);
+}
+
+/* Images */
+.blog-content img {
+  width: 100%;
+  max-height: 400px;
+  height: auto;
+  border-radius: 12px;
+  margin: 1rem 0;
+   
+}
+
+/* Clean formatting (optional - no visual style, but reset styles if needed) */
+.blog-content * {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is for responsive ******************* */
+
+@media (max-width:1200px){
+  
+
+  .card_detail{
+    width: 70%;
+  }
+   
+  
+}
+
+ 
+@media (min-width:550px) and (max-width:700px){
+ 
+
+    .card_detail{
+    width: 80%;
+  }
+   
+
+} 
+
+
+@media (max-width:550px){
+ 
+
+     .card_detail{
+    width: 90%;
+  }
+
+  .card_detail> .blog_detail_image{
+    height: 300px;
+    border-radius: 12px;
+  }
+   
+  .card_profile img{
+    width: 60px;
+    height: 60px;
+  }
+
+  
+ 
+ 
+
+} 
+
